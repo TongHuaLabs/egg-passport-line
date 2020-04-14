@@ -1,28 +1,6 @@
 # egg-passport-line
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![npm download][download-image]][download-url]
-
-[npm-image]: https://img.shields.io/npm/v/egg-passport-line.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-passport-line
-[travis-image]: https://img.shields.io/travis/eggjs/egg-passport-line.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-passport-line
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-passport-line.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-passport-line?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-passport-line.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-passport-line
-[snyk-image]: https://snyk.io/test/npm/egg-passport-line/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-passport-line
-[download-image]: https://img.shields.io/npm/dm/egg-passport-line.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-passport-line
-
-<!--
-Description here.
--->
+line passport plugin for egg
 
 ## Install
 
