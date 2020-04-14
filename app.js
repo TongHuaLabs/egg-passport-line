@@ -4,17 +4,16 @@ const debug = require('debug')('egg-passport-line');
 const assert = require('assert');
 const Strategy = require('passport-line').Strategy;
 
-module.exports = (app) => {
+module.exports = app => {
   const config = app.config.passportLine;
   config.passReqToCallback = true;
   assert(config.key, '[egg-passport-line] config.passportLine.key required');
   assert(
     config.secret,
-    '[egg-passport-line] config.passportLine.secret required',
+    '[egg-passport-line] config.passportLine.secret required'
   );
   config.channelID = config.key;
   config.channelSecret = config.secret;
-  config.callbackURL = config.callbackURL;
 
   // must require `req` params
   app.passport.use(
@@ -30,6 +29,6 @@ module.exports = (app) => {
 
       // let passport do verify and call verify hook
       app.passport.doVerify(req, user, done);
-    }),
+    })
   );
 };

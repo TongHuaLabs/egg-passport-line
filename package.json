@@ -15,7 +15,10 @@
     "egg-passport",
     "passport-line"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^4.1.1",
+    "passport-line": "^0.0.4"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -23,6 +26,7 @@
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
+    "egg-passport": "^2.1.1",
     "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0"
   },
@@ -39,10 +43,8 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "config",
-    "app"
+    "app.js"
   ],
   "ci": {
     "version": "8, 10"
