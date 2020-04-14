@@ -45,6 +45,8 @@ exports.passportLine = {
 ```js
 // {app_root}/config/config.default.js
 exports.passportLine = {
+  key: 'LINE_CHANNEL_ID',
+  secret: 'LINE_SECRET_ID',
 };
 ```
 
